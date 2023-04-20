@@ -7,10 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        dana: ["dana"]
+      },
+      colors: {
+        primary: '#0076FB',
+        secondary: '#FB8500',
+        SecendryDark: '#BC6400',
+        SecendryLight: "#FFA43D",
+        third: "#404040",
+        PrimaryDark: '#0059BC'
+        // ...
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'my_bg_image': "url('/picture/Noise Background.png')",
       },
     },
   },
