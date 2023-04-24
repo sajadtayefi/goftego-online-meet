@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function SoftwareDownloadManageOnlineMeetings() {
     return (
-        <div className="relative container mx-auto flex flex-col justify-center items-center text-white ">
+        <div className="relative container mx-auto flex flex-col justify-center items-center text-white pb-96 ">
             <Image className="absolute -z-10  -top-[560px] " src={"/picture/Background & Light.png"} width={1600} height={1600} />
             <div className="mt-52 flex flex-col justify-center items-center text-center">
                 <h2 className=" text-6xl font-semibold mb-5">

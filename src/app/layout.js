@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Header from '../components/Header'
 import './globals.css'
 
@@ -9,9 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html dir='rtl' lang="fa">
-      <body className="bg-zinc-900  font-dana">
+      <body className="bg-[#100F12] bg-my_bg_image  font-dana">
         <Header />
         {children}
+        <Footer />
       </body>
     </html >
   )
