@@ -38,6 +38,8 @@ function GoftegoSubscriptions() {
                     speed={1500}
                     pagination
                     rewind={true}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
                 >
                     {CardGoftegoSubscriptionsItems.map((content, index) => {
                         return (
@@ -55,7 +57,7 @@ function GoftegoSubscriptions() {
                             </div>
                         )
                     })}
-                    <div className="flex flex-row  z-10 absolute  justify-between top-[270px] w-full   ">
+                    <div className="flex flex-row  z-50 absolute  justify-between  top-[270px] w-full   ">
                         <GoftegoArrowNext />
                         <GoftegoArrowPrev />
                     </div>
