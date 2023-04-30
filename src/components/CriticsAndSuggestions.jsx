@@ -15,22 +15,21 @@ import SlidePrevButton from "./common/SwiperCriticsPrev";
 
 function CriticsAndSuggestions() {
     return (
-        <div className=" flex flex-col justify-center items-center text-white text-center mb-32">
+        <div className=" flex flex-col justify-center items-center text-white text-center  xl:mb-32">
             <Btn
                 text='نظرات مشتریان'
                 textCname='text-secondary '
                 cname='bg-SecendryLighter px-12 py-4 rounded-full '
             />
-            <h3 className="text-5xl  pt-5 ">
+            <h3 className="xl:text-5xl lg:text-3xl xl:mb-5 text-[14px] px-8 leading-relaxed  pt-5 ">
                 انتقادات و پیشنهادات مشتریان و سازمان هایی که از نرم افزار
-            </h3>
-            <h3 className="text-5xl  pt-5">
+                <br className="lg:flex hidden " />
                 مدیریت جلسات آنلاین گفتگو استفاده کردند.
             </h3>
             <div
                 className='w-full'>
                 <Swiper
-                    className="w-full pt-10 mt-10 "
+                    className=" w-11/12 lg:p-0 p-10 sm:p-24 md:p-24 lg:w-full lg:pt-10 mt-5 "
                     // install Swiper modules
                     spaceBetween={100}
                     slidesPerView={3}
@@ -40,13 +39,32 @@ function CriticsAndSuggestions() {
                     maxBackfaceHiddenSlides={3}
                     rewind={true}
                     centeredSlides={true}
+                    breakpoints={
+                        {
+                            // when window width is >= 320px
+                            100: {
+                                slidesPerView: 1,
+                                spaceBetween: 100,
+                            }
+                            // when window width is >= 768px
+                            , 1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 60,
+                            }
+                            // when window width is >= 1024px
+                            , 1600: {
+                                slidesPerView: 3,
+                                spaceBetween: 100,
+                            }
+                        }
+                    }
                 >
                     {CriticsAndSuggestionsItems.map((content, index) => {
                         return (
                             <div key={index}>
                                 <SwiperSlide>
                                     {({ isActive }) => (
-                                        <div className={isActive ? "scale-125" : "scale-100"}>
+                                        <div className={`${isActive ? "scale-125" : "scale-100"} transition-all delay-300 ease-linear `}>
                                             <CommentCard
                                                 avatar={content.avatar}
                                                 title={content.title}

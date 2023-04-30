@@ -5,7 +5,7 @@ function ShortDescriptionAboutOnlineMeeting() {
     return (
         <div className=" container relative w-full lg:pt-40  mx-auto flex lg:flex-row-reverse flex-col items-center lg:justify-around mb-20 lg:mb-64 ">
             <Image className=" hidden lg:flex absolute -left-[183px] -z-10 top-0 " src={'/picture/Light For About Us.png'} width={1000} height={1000} />
-            <Image className="w-[500px] h-[500px]" src={'/picture/Image About US.png'} width={350} height={350} />
+            <Image className="w-[500px] h-[400px]" src={'/picture/Image About US.svg'} width={350} height={350} />
             <div className="flex flex-col w-full lg:w-1/2 text-white justify-center p-4 lg:p-0 ">
                 <h4 className="text-white text-4xl lg:text-5xl mb-4 leading-relaxed  ">
                     توضیحاتی کوتاه درباره
@@ -26,7 +26,7 @@ function ShortDescriptionAboutOnlineMeeting() {
                     ﺧﯿﺎﻧﺖ ﻧﮑﻦ ﮐﻪ ﺍﮔﺮ ﮐﺮﺩﯼ ﻋﺸﻖ ﺭﺍ ﺩﺯﺩﯾﺪﻩ ﺍﯼ، ﺧﺸﻮﻧﺖ ﻧﮑﻦ ﺍﮔﺮ ﮐﺮﺩﯼ ﻣﺤﺒﺖ ﺭﺍ ﺩﺯﺩﯾﺪﻩ ﺍﯼ، ﻧﺎ ﺣﻖ ﻧﮕﻮ ﺍﮔﺮ ﮔﻔﺘﯽ ﺣﻖ ﺭﺍ ﺩﺯﺩﯾﺪﻩ ﺍﯼ، ﺑﯽ ﺣﯿﺎﯾﯽ ﻧﮑﻦ ﺍﮔﺮ ﮐﺮﺩﯼ ﺷﺮﺍﻓﺖ ﺭﺍ ﺩﺯﺩﯾﺪﻩ ﺍی... ﭘﺲ ﺩﺭ ﺯﻧﺪﮔﯽ ﻓﻘﻂ ﺩﺯﺩﯼ نکن !
                 </p>
                 <Btn
-                    cname="bg-primary rounded-md py-4 px-8 w-[200px]"
+                    cname="bg-primary rounded-md py-4 px-8 xl:w-[200px] w-[150px] text-[14px] "
                     text="بیشتر بدانید"
                 />
             </div>

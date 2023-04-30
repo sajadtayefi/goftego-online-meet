@@ -3,21 +3,21 @@ import Btn from "./common/Btn";
 
 function SupportOfChat() {
     return (
-        <div className=" mx-auto relative text-white justify-center items-end flex bg-SupportOfChat bg-cover w-[1600px]  h-[600px] m-4 mb-48  ">
-            <div className=" flex flex-row justify-center items-end container mx-auto w-[1200px]  ">
-                <div className="w-7/12 flex flex-col justify-start items-start ">
-                    <h3 className="text-4xl">
+        <div className=" mx-auto relative text-white justify-center items-end flex container mb-6 xl:mb-48 lg:p-0 p-4    ">
+            <div className="bg-gradient-to-r w-full from-[#4F30887A] to-[#372EA87A] flex flex-col xl:flex-row pt-10 xl:pt-20 justify-center items-center xl:items-start px-5 xl:px-20 rounded-xl shadow-xl shadow-slate-900     ">
+                <div className=" xl:w-[60%]  flex flex-col items-start justify-start h-full ">
+                    <h3 className="xl:text-4xl text-[16px]">
                         مشاوره و پشتیبانی نرم افزار <span className="text-secondary">گفتگو</span>
                     </h3>
-                    <p className="text-right mt-5">
+                    <p className="text-justify mt-5 tracking-wider text-[14px]  xl:leading-8   ">
                         این یک نوشته آزمایشی است که به طراحان و برنامه نویسان کمک میکند تا این عزیزان با بهره گیری از این نوشته تستی و آزمایشی بتوانند نمونه تکمیل شده از پروژه و طرح خودشان را به کارفرما نمایش دهند، استفاده از این متن تستی می تواند.
                     </p>
                     <Btn
-                        cname={"bg-primary rounded-xl px-10 py-4 text-white mb-20 mt-40 "}
+                        cname={"bg-primary rounded-xl h-[40px] flex justify-center items-center text-[14px] w-[186px] xl:px-10 py-4 text-white xl:mt-40 mt-5  "}
                         text={"شروع مشاوره و پشتیبانی"} />
                 </div>
-                <div className=" w-1/2 mb-2 ">
-                    <Image className="mr-auto" src={"/picture/Photos.png"} width={500} height={450} />
+                <div className=" xl:w-[800px] ">
+                    <Image className="m-auto xl:mr-auto mt-10" src={"/picture/Photos.png"} width={500} height={450} />
                 </div>
             </div>
         </div>

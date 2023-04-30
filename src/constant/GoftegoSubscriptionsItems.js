@@ -1,26 +1,26 @@
 export const BtnGoftegoSubscriptionsItems = [
     {
-        cname: " border-secondary border-2 px-10 py-2 rounded-xl ",
+        cname: "min-w-max border-secondary border-2 xl:text-base text-[10px] px-4    py-3  rounded-xl ",
         text: "اشتراک اداری",
     }
     ,
     {
-        cname: " border-secondary border-2 px-10 py-2 rounded-xl bg-secondary ",
+        cname: "min-w-max border-secondary border-2 xl:text-base text-[10px]  px-4  py-3  rounded-xl bg-secondary ",
         text: "اشتراک اداری",
     }
     ,
     {
-        cname: " border-secondary border-2 px-10 py-2 rounded-xl ",
+        cname: "min-w-max border-secondary border-2 xl:text-base  text-[10px] px-4  py-3  rounded-xl ",
         text: "اشتراک دولتی",
     }
     ,
     {
-        cname: " border-secondary border-2 px-10 py-2 rounded-xl ",
+        cname: "min-w-max border-secondary border-2 xl:text-base text-[10px] px-4  py-3  rounded-xl  ",
         text: "اشتراک رویداد و استارت آپ",
     }
     ,
     {
-        cname: " border-secondary border-2 px-10 py-2 rounded-xl ",
+        cname: "min-w-max border-secondary border-2 xl:text-base text-[10px] px-4  py-3  rounded-xl ",
         text: "اشتراک شخصی و انحصاری",
     }
 ]
