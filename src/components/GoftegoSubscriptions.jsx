@@ -2,12 +2,8 @@
 
 import { BtnGoftegoSubscriptionsItems, CardGoftegoSubscriptionsItems } from "@/constant/GoftegoSubscriptionsItems";
 import Btn from "./common/Btn";
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper.min.css';
 import CardGoftego from "./common/CardGoftego";
-import GoftegoArrowNext from "./common/GoftegoArrowNext";
-import GoftegoArrowPrev from "./common/GoftegoArrowPrev";
+import MainSwiper from "./common/MainSwiper";
 
 
 function GoftegoSubscriptions() {
@@ -29,65 +25,19 @@ function GoftegoSubscriptions() {
                     )
                 })}
             </div>
-            <div
-                className='w-full flex justify-center items-center mb-10  '>
-                <Swiper
-                    className="w-full mt-5 xl:mt-10 relative px-10    "
-                    // install Swiper modules
-                    spaceBetween={50}
-                    slidesPerView={4}
-                    speed={1500}
-                    pagination
-                    rewind={true}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
-                    breakpoints={
-                        {
-                            // when window width is >= 100px
-                            100: {
-                                slidesPerView: 1,
-                                spaceBetween: 40,
-                            }
-                            , 600: {
-                                slidesPerView: 2
-                            }
-                            // when window width is >= 768px
-                            , 1024: {
-                                slidesPerView: 3,
-                            }
-                            // when window width is >= 1024px
-                            , 1600: {
-                                slidesPerView: 4
-                            }
-                        }
-                    }
-                >
-                    {CardGoftegoSubscriptionsItems.map((content, index) => {
-                        return (
-                            <div key={index} className=" flex flex-col   justify-center items-center">
-                                <SwiperSlide className="flex ">
-                                    <CardGoftego
-                                        image={content.image}
-                                        btnbuy={content.btnBuy}
-                                        meetingTimeText={content.meetingTimeText}
-                                        perMonthText={content.perMonthText}
-                                        title={content.title}
-                                        users={content.users}
-                                    />
-                                </SwiperSlide>
-                            </div>
-                        )
-                    })}
-                    <div className="flex flex-row  relative  justify-between   w-full   ">
-                        <div className="absolute z-20 -top-56 left-0 -right-6 bottom-0">
-                            <GoftegoArrowNext />
-                        </div>
-                        <div className="absolute z-10 -top-56 -left-6 bottom-10">
-                            <GoftegoArrowPrev />
-                        </div>
-                    </div>
-                </Swiper>
-            </div >
+            <MainSwiper
+                item={CardGoftegoSubscriptionsItems}
+                renderItem={(i) => (
+                    <CardGoftego
+                        image={i.image}
+                        btnbuy={i.btnBuy}
+                        meetingTimeText={i.meetingTimeText}
+                        perMonthText={i.perMonthText}
+                        title={i.title}
+                        users={i.users}
+                    />
+                )}
+            />
         </div>
     );
 }
