@@ -69,4 +69,176 @@ export const CardGoftegoSubscriptionsItems = [
         meetingTimeText: "زمان برگزاری جلسه نامحدود",
         btnBuy: "خرید اشتراک",
     }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    , 
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    , 
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    , 
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    , 
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    , 
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    , 
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    , 
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    , 
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    , 
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
+    {
+        image: "/picture/Rectangle 18 (1).png",
+        title: "200 هزار تومان",
+        users: "5 کاربر همزمان",
+        perMonthText: "اشتراک به صورت 1 ماهه می باشد",
+        meetingTimeText: "زمان برگزاری جلسه نامحدود",
+        btnBuy: "خرید اشتراک",
+    }
+    ,
 ]

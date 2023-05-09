@@ -7,11 +7,13 @@ import SoftwareDownloadManageOnlineMeetings from "@/components/SoftwareDownloadM
 import SupportOfChat from "@/components/SupportOfChat";
 import VideoIntroduction from "@/components/VideoIntroduction";
 import WhyGoftego from "@/components/WhyGoftego";
-
+import Footer from '@/components/Footer'
+import Header from '../components/Header'
 export default function Home() {
   return (
     <main className="">
       <div className=" overflow-hidden">
+        <Header />
         <OnlineMeetingManagementSoftware />
         <AchievementsOfManaging />
         <ShortDescriptionAboutOnlineMeeting />
@@ -21,6 +23,7 @@ export default function Home() {
         <CriticsAndSuggestions />
         <SupportOfChat />
         <GoftegoSubscriptions />
+        <Footer />
       </div>
     </main>
   )

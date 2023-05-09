@@ -1,5 +1,5 @@
 import { WhyGoftegoItems } from "@/constant/WhyGoftegoItems";
-import BenefitGoftegoCard from "./common/BenefitGoftegoCard";
+import BenefitGoftegoCard from "../app/common/BenefitGoftegoCard";
 import { Fragment } from "react";
 
 function WhyGoftego() {

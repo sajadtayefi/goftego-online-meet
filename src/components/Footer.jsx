@@ -1,6 +1,6 @@
 import { FooterItems } from "@/constant/FooterItems";
 import Image from "next/image";
-import Btn from "./common/Btn";
+import Btn from "../app/common/Btn";
 
 function Footer() {
     return (

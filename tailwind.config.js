@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        dana: ["dana"]
+        dana: ["dana"],
+        morabba: ["morabba"],
       },
       colors: {
         primary: '#0076FB',
@@ -25,6 +26,8 @@ module.exports = {
         'SupportOfChat': "url('/picture/Background & Noise.png')",
         'card': "url('/public/picture/Rectangle 17.png')",
         'footer': "url('/picture/Light Background Footer.png')",
+        'sing-up': "url('/picture/Rectangle 197.svg')",
+        'sing-up-glass': "url('/picture/Rectangle 198.svg')",
       },
     },
   },

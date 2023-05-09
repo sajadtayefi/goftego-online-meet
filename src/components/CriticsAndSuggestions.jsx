@@ -1,15 +1,14 @@
-'use client';
-
-import Btn from "./common/Btn";
+"use client"
+import Btn from "../app/common/Btn";
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/swiper.min.css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
-import CommentCard from "./common/CommentCard";
+import CommentCard from "../app/common/CommentCard";
 import { CriticsAndSuggestionsItems } from "@/constant/CriticsAndSuggestionsItems";
-import SlideNextButton from "./common/SwiperCriticsNext";
-import SlidePrevButton from "./common/SwiperCriticsPrev";
+import SlideNextButton from "../app/common/SwiperCriticsNext";
+import SlidePrevButton from "../app/common/SwiperCriticsPrev";
 
 
 

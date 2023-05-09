@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AchievementCard from "./common/AchievementCard";
+import AchievementCard from "../app/common/AchievementCard";
 import { AchievementItems } from "@/constant/AchievementItems";
 import { Fragment } from "react";
 

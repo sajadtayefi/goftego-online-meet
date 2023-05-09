@@ -1,9 +1,9 @@
 'use client';
 
 import { BtnGoftegoSubscriptionsItems, CardGoftegoSubscriptionsItems } from "@/constant/GoftegoSubscriptionsItems";
-import Btn from "./common/Btn";
-import CardGoftego from "./common/CardGoftego";
-import MainSwiper from "./common/MainSwiper";
+import Btn from "../app/common/Btn";
+import CardGoftego from "../app/common/CardGoftego";
+import MainSwiper from "../app/common/MainSwiper";
 
 
 function GoftegoSubscriptions() {
@@ -29,6 +29,7 @@ function GoftegoSubscriptions() {
                 item={CardGoftegoSubscriptionsItems}
                 renderItem={(i) => (
                     <CardGoftego
+                        cname="border-2 border-[#757575] rounded-xl p-2 flex flex-col justify-center items-center w-full  "
                         image={i.image}
                         btnbuy={i.btnBuy}
                         meetingTimeText={i.meetingTimeText}
