@@ -3,7 +3,7 @@ import SpecialConversationSuggestions from "./components/SpecialConversationSugg
 
 function Home() {
     return (
-        <div className="text-white">
+        <div className="text-white overflow-hidden">
             <SpecialConversationSuggestions />
             <GoftegoFullSubscriptions />
         </div>

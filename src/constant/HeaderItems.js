@@ -3,14 +3,14 @@ export const HeaderItems = [
         id: 1,
         name: "صفحه اصلی",
         isActive: true,
-        link:'/#'
+        link: '/#'
     }
     ,
     {
         id: 2,
         name: "ویژگی ها ",
         isActive: false,
-        link:'/#'
+        link: '/#'
 
     }
     ,
@@ -18,7 +18,7 @@ export const HeaderItems = [
         id: 3,
         name: "امکانات",
         isActive: false,
-        link:'/#'
+        link: '/#'
 
     }
     ,
@@ -26,7 +26,7 @@ export const HeaderItems = [
         id: 4,
         name: "مقالات",
         isActive: false,
-        link:'/#'
+        link: '/blogs'
 
     }
     ,
@@ -34,14 +34,14 @@ export const HeaderItems = [
         id: 5,
         name: "اشتراک ها",
         isActive: false,
-        link:'/subscribe'
+        link: '/subscribe'
     }
     ,
     {
         id: 6,
         name: "درباره ما",
         isActive: false,
-        link:'/about-us'
+        link: '/about-us'
 
     }
     ,
@@ -49,7 +49,7 @@ export const HeaderItems = [
         id: 7,
         name: "تماس با ما",
         isActive: false,
-        link:'/#'
+        link: '/#'
 
     }
 ]

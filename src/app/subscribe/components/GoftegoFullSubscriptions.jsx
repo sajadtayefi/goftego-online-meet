@@ -10,7 +10,7 @@ function GoftegoFullSubscriptions() {
             <h3 className="xl:text-5xl font-semibold xl:mb-10 text mb-3 lg:text-4xl text-[24px] px-2 xl:px-0">
                 اشتراک های <span className="text-secondary">گفتگو</span>
             </h3>
-            <div className="flex flex-row relative items-start  justify-start xl:overflow-hidden scrollbar-thumb-red scroll scrollbar-track-gray-200 overflow-scroll pb-20   ">
+            <div className="flex flex-row relative items-start  justify-start xl:overflow-hidden scrollbar-thumb-red scroll scrollbar-track-gray-200 overflow-scroll xl:pb-20 pb-8 mb-5   ">
                 {BtnGoftegoSubscriptionsItems.map((item, index) => {
                     return (
                         <div className="ml-5 whitespace-nowrap" key={index}>
@@ -23,14 +23,14 @@ function GoftegoFullSubscriptions() {
                     )
                 })}
             </div>
-            <div className="flex w-full flex-row justify-between items-center pb-10 ">
-                <div className="w-full" >
+            <div className="flex w-full lg:flex-row justify-between items-center pb-10 flex-col ">
+                <div className="w-full mb-5 lg:mb-0" >
                     <h5>
                         بر اساس تعداد کاربر
                     </h5>
                     <Image className="w-full" src={"/icons/Line.svg"} height={28} width={580} />
                 </div>
-                <div className=" w-full mr-16">
+                <div className=" w-full lg:mr-16 ">
                     <h5>
                         بر اساس مدت زمان
                     </h5>
@@ -42,7 +42,7 @@ function GoftegoFullSubscriptions() {
             </div>
             <div className=" flex flex-row flex-wrap w-full justify-center items-center ">
                 {CardGoftegoSubscriptionsItems.map((item, index) => (
-                    <div className="w-[23%] m-3" key={index}>
+                    <div className="lg:w-[45%] xl:w-[23%] m-3" key={index}>
                         <CardGoftego
                             cname={"border-2 border-[#757575] rounded-xl p-2 flex flex-col justify-center items-center w-full "}
                             image={item.image}

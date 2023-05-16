@@ -1,8 +1,13 @@
+import Banner from "./components/BlogBanner";
+import BlogSwiperScienceTechnology from "./components/BlogSwiperScienceTechnology";
+import BlogOther from "./components/BlogsOther";
 
 function Home() {
     return (
-        <div className="flex flex-row  " >
-       
+        <div className=" " >
+            <Banner />
+            <BlogSwiperScienceTechnology />
+            <BlogOther />
         </div>
     );
 }

@@ -1,8 +1,7 @@
-import { Component } from "react"
 
 export const ProfileItems = [
     {
-        cname: "flex flex-col ",
+        cname: "flex flex-col  ",
         labelcname: "",
         text: "نام",
         spanCname: "text-[#FB0800]",
@@ -61,7 +60,7 @@ export const ProfileItems = [
         labelcname: "",
         text: "سمت در شرکت",
         spanCname: "text-[#FB0800]",
-        colorfulText: "(اختیاری)",
+        colorfulText: " (اختیاری) ",
         inputCname: "p-4 rounded-xl mt-2 border bg-transparent",
         placeholder: "رئیس شرکت بنیان آدینه الکترو صنعت",
         type: "text"
@@ -71,7 +70,7 @@ export const ProfileItems = [
 export const ProfileButtonsItems = [
     {
         id: 1,
-        divCname: "mb-2",
+        divCname: " lg:mb-2",
         text: "ویرایش پروفایل",
         active: true,
 
@@ -79,7 +78,7 @@ export const ProfileButtonsItems = [
     ,
     {
         id: 2,
-        divCname: "mb-2",
+        divCname: " lg:mb-2",
         text: "اشتراک های فعال",
         active: false
     }

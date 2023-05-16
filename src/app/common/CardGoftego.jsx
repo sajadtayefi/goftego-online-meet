@@ -5,13 +5,13 @@ function CardGoftego({ image, title, users, perMonthText, meetingTimeText, btnbu
     return (
         <div className={cname}>
             <Image src={image} width={400} height={250} />
-            <h3 className="mt-8 text-2xl font-semibold">
+            <h3 className="mt-8  text-[16px] xl:text-2xl font-semibold">
                 {title}
             </h3>
-            <h5 className="mt-5 text-xs">
+            <h5 className="mt-5 xl:text-xs text-[12px] ">
                 {users}
             </h5>
-            <p className="border-2 rounded-xl border-secondary py-2 text-sm px-4 text-secondary mt-14">
+            <p className="border-2 rounded-xl border-secondary p-2 xl:py-2 xl:text-sm text-[12px]  xl:px-4 text-secondary mt-14">
                 {perMonthText}
             </p>
             <h2 className="mt-14">

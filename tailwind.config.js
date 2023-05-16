@@ -28,6 +28,8 @@ module.exports = {
         'footer': "url('/picture/Light Background Footer.png')",
         'sing-up': "url('/picture/Rectangle 197.svg')",
         'sing-up-glass': "url('/picture/Rectangle 198.svg')",
+        'blog-bannr': "url('/picture/Rectangle 205.svg')",
+        'blog-bannr-phone': "url('/picture/Rectangle 205 (2).svg')",
       },
     },
   },
