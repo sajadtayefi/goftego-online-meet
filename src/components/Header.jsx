@@ -15,10 +15,11 @@ function Header() {
     const openeventhandler = () => {
         setIsOpen(!isOpen)
     }
+
     const IsActiveHander = (id) => {
         const newItem = data?.map((item) =>
             item.id === id ? { ...item, isActive: true } : { ...item, isActive: false }
-        )   
+        )
         setData(newItem)
     }
 
@@ -28,7 +29,7 @@ function Header() {
             <Image onClick={openeventhandler} className="flex xl:hidden mr-4 sm:mr-0 " src={"/icons/menu.svg"} height={50} width={50} />
             <Image className="xl:right-0 xl:relative xl:ml-10   absolute left-[50%]     " src="/icons/Logo Goftego 2 1 (1).png" height={56} width={56} />
             {isOpen ?
-                // collpse mode
+                // collapse mode
                 <div className={`${isOpen ? 'translate-x-0' : '"-translate-x-full"'}transition-transform px-5 z-40  duration-300 ease-linear xl:hidden flex w-1/2 h-full fixed  top-0 z-20 right-0  flex-col justify-start  pt-5 items-start  bg-white `}>
                     <div className="flex flex-row  justify-between w-full items-center">
                         <h3 className="lg:text-3xl text-[14px]  sm:mr-20 ">فهرست گفتگو</h3>

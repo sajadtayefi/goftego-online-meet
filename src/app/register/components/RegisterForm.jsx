@@ -1,7 +1,43 @@
+"use client"
 import Btn from "@/app/common/Btn";
+import axios from "axios";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import RegisterSingUp from "./RegisterSignUp";
+import Link from "next/link";
+import RegisterVerified from "./RegisterVerified";
 
 function RegisterForm() {
+    const [status, setStatus] = useState(0)
+    const [phone, setPhone] = useState("")
+    useEffect(() => {
+        axios.get(`https://pouyan.xyz/goftego/blog/api/newsreaders`)
+            .then((res) => {
+                console.log(res, "this is my get res")
+            })
+    }, [])
+
+    const phonehandler = () => {
+        axios.post(`https://pouyan.xyz/goftego`, { type: "mobile", mobile: phone })
+            .then((res) => {
+                if (res.status == 200) {
+                    setStatus(1)
+                    console.log(res)
+                }
+                else {
+
+                }
+            })
+    }
+    const onChangePhonehandler = (e) => {
+        setPhone(e.target.value)
+    }
+    const editnumberHandler = () => {
+        setStatus(0)
+    }
+
+
+
     return (
         <div className="text-white flex  w-full lg:w-1/2   flex-col items-start justify-start  px-5 xl:px-32 2xl:px-52">
             <Image className="lg:pt-24 w-16 xl:w-20  pb-5" src={"/icons/Logo Goftego 2 1.svg"} width={100} height={100} />
@@ -17,24 +53,11 @@ function RegisterForm() {
             <p className="pb-3 text-[14px]">
                 شماره موبایل
             </p>
-            <input className="bg-transparent border rounded-lg w-full p-3 lg:p-5 custom-number-input" type="number" />
-            <Btn
-                text={"ارسال کد تایید"}
-                cname="w-full bg-primary rounded-md p-3 lg:p-5 mt-10 mb-10 lg:mb-20 "
-            />
-            <div class="border-t   w-full mb-10 lg:mb-20 flex justify-center items-center">
-                <h5 class="w-32 bg-[#100F12] text-[#FDFDFD] text-[12px] flex justify-center items-center h-5  left-0 right-44 top-1/2 transform -translate-y-1/2">
-                    یا ثبت نام از طریق
-                </h5>
-            </div>
-            <Btn
-                text={"ثبت نام از طریق گوگل"}
-                icon={<Image className="ml-3" src={"/icons/Frame.svg"} width={30} height={30} />}
-                cname="w-full bg-transparent border rounded-md mb-5 flex flex-row-reverse justify-center items-center p-3 lg:p-5"
-            />
-            <h3 className=" self-center text-primary text-[16px] cursor-pointer pb-10">
-                قبلا ثبت نام کرده اید ...
-            </h3>
+            <input readOnly={status == 1 && true} value={phone} onChange={onChangePhonehandler} className="bg-transparent border text-xl rounded-lg w-full p-3 lg:p-5 custom-number-input" type="number" />
+            {status == 0 && <RegisterSingUp phonehandler={phonehandler} phone={phone} />}
+            {status == 1 && <p onClick={editnumberHandler} className=" mt-5 cursor-pointer text-primary"> تغییر شماره موبایل </p>}
+            {status == 1 && <RegisterVerified phone={phone} />}
+
         </div>
     );
 }

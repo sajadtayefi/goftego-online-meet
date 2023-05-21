@@ -40,7 +40,7 @@ function GoftegoFullSubscriptions() {
             <div className="flex justify-center pb-10 ">
                 <Image src={"/icons/Updating.svg"} height={40} width={150} />
             </div>
-            <div className=" flex flex-row flex-wrap w-full justify-center items-center ">
+            <div className=" flex flex-row flex-wrap w-full justify-center items-center transio ">
                 {CardGoftegoSubscriptionsItems.map((item, index) => (
                     <div className="lg:w-[45%] xl:w-[23%] m-3" key={index}>
                         <CardGoftego
@@ -58,5 +58,4 @@ function GoftegoFullSubscriptions() {
         </div>
     );
 }
-
-export default GoftegoFullSubscriptions;
+export default GoftegoFullSubscriptions
