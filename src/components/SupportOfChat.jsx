@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Btn from "../app/common/Btn";
 
-function SupportOfChat() {
+const SupportOfChat = () => {
     return (
         <div className=" mx-auto relative text-white justify-center items-end flex container mb-6 xl:mb-48 lg:p-0 p-4    ">
             <div className="bg-gradient-to-r w-full from-[#4F30887A] to-[#372EA87A] flex flex-col xl:flex-row pt-10 xl:pt-20 justify-center items-center xl:items-start px-5 md:px-32 xl:px-20 rounded-xl shadow-xl shadow-slate-900     ">

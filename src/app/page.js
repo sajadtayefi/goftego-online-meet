@@ -9,7 +9,7 @@ import VideoIntroduction from "@/components/VideoIntroduction";
 import WhyGoftego from "@/components/WhyGoftego";
 import Footer from '@/components/Footer'
 import Header from '../components/Header'
-export default function Home() {
+const Home = () => {
   return (
     <main className="">
       <div className=" overflow-hidden">
@@ -28,3 +28,4 @@ export default function Home() {
     </main>
   )
 }
+export default Home

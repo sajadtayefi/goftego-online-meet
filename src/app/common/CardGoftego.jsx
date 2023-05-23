@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Btn from "./Btn";
 
-function CardGoftego({ image, title, users, perMonthText, meetingTimeText, btnbuy, cname }) {
+const CardGoftego = ({ image, title, users, perMonthText, meetingTimeText, btnbuy, cname }) => {
     return (
         <div className={cname}>
             <Image src={image} width={400} height={250} />

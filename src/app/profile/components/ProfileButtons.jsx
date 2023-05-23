@@ -2,7 +2,7 @@ import Btn from "@/app/common/Btn";
 import { ProfileButtonsItems } from "@/constant/ProfileItems";
 import { Fragment, useEffect } from "react";
 
-function ProfileButtons({ setIsActive, isActive }) {
+const ProfileButtons = ({ setIsActive, isActive }) => {
     useEffect
     return (
         <div className="flex flex-row lg:w-auto   w-full lg:mb-0 mb-5  lg:flex-col xl:ml-40 justify-start items-center md:overflow-visible  overflow-scroll   ">

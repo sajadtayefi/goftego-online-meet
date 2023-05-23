@@ -10,7 +10,7 @@ import Image from 'next/image';
 import BlogMainSwiper from './BlogMainSwiper';
 
 
-function BlogSwiperScienceTechnology() {
+const BlogSwiperScienceTechnology = () => {
     return (
         <div className="">
             <BlogMainSwiper

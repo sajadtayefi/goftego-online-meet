@@ -4,26 +4,55 @@
 
 
 @font-face {
-    font-family: "dana";
-    src: url(../../public/fonts/Dana\ family/Dana-Medium.ttf);
-    src: url(../../public//fonts/woff/Dana-Regular.woff);
+  font-family: "dana";
+  src: url(../../public/fonts/Dana\ family/Dana-Medium.ttf);
+  src: url(../../public//fonts/woff/Dana-Regular.woff);
 }
 
 @font-face {
-    font-family: "dana bold";
-    src: url(../../public/fonts/Dana\ family/Dana-ExtraBold.ttf);
-    src: url(../../public/fonts/woff/Dana-ExtraBold.woff);
+  font-family: "dana bold";
+  src: url(../../public/fonts/Dana\ family/Dana-ExtraBold.ttf);
+  src: url(../../public/fonts/woff/Dana-ExtraBold.woff);
 }
 
 @font-face {
-    font-family: "morabba";
-    src: url(../../public/fonts/Morabba/ttf/Morabba-Medium.ttf);
-    src: url(../../public/fonts/Morabba/woff/Morabba-Medium.woff);
+  font-family: "morabba";
+  src: url(../../public/fonts/Morabba/ttf/Morabba-Medium.ttf);
+  src: url(../../public/fonts/Morabba/woff/Morabba-Medium.woff);
 }
 
 
 .custom-number-input::-webkit-outer-spin-button,
 .custom-number-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* Placeholder styles */
+
+
+/* Hover styles */
+
+
+/* Focus styles */
+input:focus {
+  @apply border-blue-500;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+/* Disabled styles */
+input:disabled {
+  @apply bg-gray-100 text-gray-500 border-gray-300 cursor-not-allowed;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
 }

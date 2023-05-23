@@ -1,6 +1,6 @@
 import CardGoftego from "@/app/common/CardGoftego";
 
-function ActiveAccounts() {
+const ActiveAccounts = () => {
     return (
         <div className="flex flex-col md:flex-row px-5 2xl:px-20 pb-20 justify-center items-center   ">
             <CardGoftego

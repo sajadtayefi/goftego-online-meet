@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function SoftwareDownloadManageOnlineMeetings() {
+const SoftwareDownloadManageOnlineMeetings = () => {
     return (
         <div className="relative container hidden  mx-auto lg:flex flex-col justify-center items-center text-white pb-96 ">
             <Image className="absolute z-10 xl:-top-96 bottom-0  2xl:-top-[560px] " src={"/picture/Background & Light.png"} width={1600} height={1600} />

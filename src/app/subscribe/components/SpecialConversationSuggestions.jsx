@@ -3,7 +3,7 @@ import CardGoftego from "@/app/common/CardGoftego";
 import MainSwiper from "@/app/common/MainSwiper";
 import { CardGoftegoSubscriptionsItems } from "@/constant/GoftegoSubscriptionsItems";
 
-function SpecialConversationSuggestions() {
+const SpecialConversationSuggestions = () => {
     return (
         <div className="container flex flex-col text-white mx-auto mt-10 mb-20 ">
             <h3 className="xl:text-5xl font-semibold xl:mb-0 text mb-3 lg:text-4xl text-[24px] px-10">

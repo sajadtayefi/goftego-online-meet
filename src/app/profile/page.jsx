@@ -1,6 +1,6 @@
 import Profile from "./components/Profile";
 
-function Home() {
+const Home = () => {
     return (
         <div className=" overflow-hidden">
             <Profile />

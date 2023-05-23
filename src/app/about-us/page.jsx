@@ -4,7 +4,7 @@ import AchievementsOfManaging from "./components/AchievementsOfManaging";
 import WhyGoftego from "./components/WhyGoftego";
 import VideoIntroduction from "./components/VideoIntroduction";
 
-function Home() {
+const Home = () => {
     return (
         <div>
             <AboutUs />

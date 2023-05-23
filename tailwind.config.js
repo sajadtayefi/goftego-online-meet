@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      extend: {
+        appearance: ['none'],
+      },
       fontFamily: {
         dana: ["dana"],
         morabba: ["morabba"],

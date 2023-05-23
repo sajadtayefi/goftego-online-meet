@@ -2,7 +2,7 @@ import { WhyGoftegoItems } from "@/constant/WhyGoftegoItems";
 import { Fragment } from "react";
 import BenefitGoftegoCard from "../../common/BenefitGoftegoCard";
 
-function WhyGoftego() {
+const WhyGoftego = () => {
     return (
         <div className="text-white container flex flex-col mx-auto justify-center items-center xl:pb-0 lg:mb-0">
             <h2 className="text-white xl:text-5xl text-[24px]  font-semibold mb-5">

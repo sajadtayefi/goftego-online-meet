@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Btn from "../app/common/Btn";
 
-function ShortDescriptionAboutOnlineMeeting() {
+const ShortDescriptionAboutOnlineMeeting = () => {
     return (
         <div className=" container relative w-full lg:pt-40  mx-auto flex lg:flex-row-reverse flex-col items-center lg:justify-around mb-20 lg:mb-64 ">
             <Image className=" hidden lg:flex absolute -left-[183px] -z-10 top-0 " src={'/picture/Light For About Us.png'} width={1000} height={1000} />

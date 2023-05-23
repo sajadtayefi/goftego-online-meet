@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-function OnlineMeetingManagementSoftware() {
+const OnlineMeetingManagementSoftware = () => {
     return (
         <div className="flex pt-5 relative container mx-auto xl:mb-32  mb-16 ">
-            <Image className="absolute -z-10 -right-52 bottom-0 -top-0  "src={"/picture/bgfirst.png"} height={1000} width={1000} />
+            <Image className="absolute -z-10 -right-52 bottom-0 -top-0  " src={"/picture/bgfirst.png"} height={1000} width={1000} />
             <div className="flex flex-col lg:flex-row-reverse justify-center items-center  ">
                 <Image className="lg:mr-auto " src={"/picture/Image & Background.png"} width={600} height={600} />
                 <div className="text-white w-full lg:w-1/2 px-10 lg:px-0">

@@ -3,7 +3,7 @@ import AchievementCard from "../app/common/AchievementCard";
 import { AchievementItems } from "@/constant/AchievementItems";
 import { Fragment } from "react";
 
-function AchievementsOfManaging() {
+const AchievementsOfManaging = () => {
     return (
         <div className="text-white relative  container mx-auto w-full lg:w-10/12 text-right lg:text-center px-10  mb-5 xl:mb-32">
             <h2 className="2xl:text-5xl lg:text-5xl text-[24px] xl:font-bold font-medium relative   ">

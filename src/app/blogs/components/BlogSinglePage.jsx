@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BlogSinglePageSwiper from "./BlogSinglePageSwiper";
 
-function BlogSinglePage() {
+const BlogSinglePage = () => {
     return (
         <div className=" flex flex-col container mx-auto mt-10 ">
             <div className="flex flex-col justify-center items-center px-10">

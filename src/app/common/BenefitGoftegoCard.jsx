@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function BenefitGoftegoCard({ title, descrption, picture }) {
+const BenefitGoftegoCard = ({ title, descrption, picture }) => {
     return (
         <div className="relative flex flex-col mb-16 lg:mb-0 lg:my-0 border-4 z-20 border-[#757575] xl:w-1/3 xl:justify-start lg:h-64 w-10/12 lg:mx-5 mx-4 lg:text-right p-5 ">
             <Image className="absolute  -top-[40px] lg:-top-6 xl:-top-8" src={picture} width={60} height={60} />

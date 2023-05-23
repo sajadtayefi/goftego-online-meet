@@ -4,7 +4,7 @@ import { ProfileItems } from "@/constant/ProfileItems";
 import Image from "next/image";
 import { Fragment } from "react";
 
-function EditProfile({ isActive }) {
+const EditProfile = ({ isActive }) => {
     return (
         <div className="  flex flex-col lg:pb-40 ">
 

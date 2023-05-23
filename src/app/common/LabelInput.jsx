@@ -1,4 +1,4 @@
-function LabelInput({ text, colorfulText, cname, placeholder, type, inputCname, spanCname, labelcname }) {
+const LabelInput = ({ text, colorfulText, cname, placeholder, type, inputCname, spanCname, labelcname }) => {
     return (
         <div className={`${cname} w-full lg:w-[48%] mt-5 `}>
             <label className={labelcname} htmlFor="">

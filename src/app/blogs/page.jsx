@@ -2,7 +2,7 @@ import Banner from "./components/BlogBanner";
 import BlogSwiperScienceTechnology from "./components/BlogSwiperScienceTechnology";
 import BlogOther from "./components/BlogsOther";
 
-function Home() {
+const Home = () => {
     return (
         <div className=" " >
             <Banner />

@@ -10,7 +10,7 @@ import Image from 'next/image';
 import BlogMainSwiper from './BlogMainSwiper';
 
 
-function BlogSinglePageSwiper() {
+const BlogSinglePageSwiper = () => {
     return (
         <div className="">
             <BlogMainSwiper

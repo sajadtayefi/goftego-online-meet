@@ -1,7 +1,7 @@
 import RegisterBanner from "./components/RegisterBanner";
 import RegisterForm from "./components/RegisterForm";
 
-function Home() {
+const Home = () => {
     return (
         <div className="flex flex-row  " >
             <RegisterBanner />

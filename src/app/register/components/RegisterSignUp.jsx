@@ -1,7 +1,7 @@
 import Btn from "@/app/common/Btn";
 import Image from "next/image";
 
-function RegisterSingUp({ phone, phonehandler }) {
+const RegisterSingUp = ({ phone, phonehandler }) => {
     return (
         <div className="w-full">
             <Btn

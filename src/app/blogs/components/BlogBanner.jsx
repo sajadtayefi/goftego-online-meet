@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Fragment } from "react";
 import BlogCard from "./BlogCard";
 
-function BlogBanner() {
+const BlogBanner = () => {
     return (
         <div className="container mx-auto  text-white mt-5 px-10 pb-5 lg:pb-28">
             <div className=" bg-blog-bannr-phone mb-5 lg:bg-blog-bannr flex items-end  md:justify-start justify-center    bg-no-repeat bg-cover  bg-center h-60 sm:h-[600px] lg:h-[400px] xl:h-[600px] rounded-2xl">

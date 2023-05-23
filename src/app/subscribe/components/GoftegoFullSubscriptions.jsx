@@ -4,7 +4,7 @@ import { BtnGoftegoSubscriptionsItems, CardGoftegoSubscriptionsItems } from "@/c
 import Image from "next/image";
 import { Fragment } from "react";
 
-function GoftegoFullSubscriptions() {
+const GoftegoFullSubscriptions = () => {
     return (
         <div className=" container flex flex-col text-white mx-auto px-10 ">
             <h3 className="xl:text-5xl font-semibold xl:mb-10 text mb-3 lg:text-4xl text-[24px] px-2 xl:px-0">

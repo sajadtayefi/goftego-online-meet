@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function BlogCard({ cname, image, title, description, date, paraCname, imageCname, linkAddress }) {
+const BlogCard = ({ cname, image, title, description, date, paraCname, imageCname, linkAddress }) => {
     return (
         <div className={`${cname}    `}>
             <Link href="blogs/some">

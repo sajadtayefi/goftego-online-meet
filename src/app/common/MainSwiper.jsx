@@ -6,7 +6,7 @@ import 'swiper/swiper.min.css';
 import 'swiper/css/pagination';
 import Image from 'next/image';
 
-function MainSwiper({ item, renderItem }) {
+const MainSwiper = ({ item, renderItem }) => {
     return (
         <div className='w-full flex flex-col justify-center  items-center xl:mb-0 mb-10 px-10  '>
             <Swiper

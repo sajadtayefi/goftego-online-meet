@@ -1,7 +1,7 @@
 import GoftegoFullSubscriptions from "./components/GoftegoFullSubscriptions";
 import SpecialConversationSuggestions from "./components/SpecialConversationSuggestions";
 
-function Home({ isRegisterRoute }) {
+const Home = ({ isRegisterRoute }) => {
     return (
         <div isRegisterRoute={isRegisterRoute} className="text-white overflow-hidden">
             <SpecialConversationSuggestions />

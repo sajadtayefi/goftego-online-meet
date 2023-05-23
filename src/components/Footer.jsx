@@ -2,7 +2,7 @@ import { FooterItems } from "@/constant/FooterItems";
 import Image from "next/image";
 import Btn from "../app/common/Btn";
 
-function Footer() {
+const Footer = () => {
     return (
         <div className="bg-footer bg-cover   flex-col xl:pt-28   text-white   ">
             <div className="container mx-auto flex-col items-center flex lg:flex-row p-10 lg:p-0   justify-center lg:items-start  xl:pt-20 pb-16">

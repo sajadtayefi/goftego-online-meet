@@ -7,7 +7,7 @@ import Btn from '@/app/common/Btn';
 import Image from 'next/image';
 
 
-function BlogMainSwiper({ text, data, renderItem }) {
+const BlogMainSwiper = ({ text, data, renderItem }) => {
     return (
         <div className="text-white container mx-auto  px-10 pb-20">
             <div className='flex flex-row justify-between pb-4 lg:pb-10 '>

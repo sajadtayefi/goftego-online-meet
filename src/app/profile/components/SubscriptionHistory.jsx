@@ -1,6 +1,6 @@
 import { ProfileSubscriptionHistory } from "@/constant/ProfileItems";
 
-function SubscriptionHistory() {
+const SubscriptionHistory = () => {
     return (
         <div className="flex flex-col justify-center items-start md:items-center  md:overflow-hidden overflow-scroll    pb-20">
             {ProfileSubscriptionHistory.map((item) => (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function RegisterBanner() {
+const RegisterBanner = () => {
     return (
         <div className=" text-white bg-sing-up relative bg-cover hidden  w-1/2 h-[100vh] lg:flex justify-center items-center">
             <div className="bg-slate-300 w-8/12 h-[80%]   opacity-20 rounded-xl absolute   ">

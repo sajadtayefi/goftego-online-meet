@@ -5,7 +5,7 @@ import Btn from "../app/common/Btn";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-function Header() {
+const Header = () => {
     const [data, setData] = useState([])
     const [isOpen, setIsOpen] = useState(false)
 

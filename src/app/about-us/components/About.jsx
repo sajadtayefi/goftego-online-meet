@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function AboutUs() {
+const AboutUs = () => {
     return (
         <div className="text-white container mx-auto flex flex-col justify-center items-center pt-16 xl:pb-40 pb-10 px-10">
             <h2 className="text-5xl font-semibold text-secondary mb-10">

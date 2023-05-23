@@ -6,7 +6,7 @@ import CardGoftego from "../app/common/CardGoftego";
 import MainSwiper from "../app/common/MainSwiper";
 
 
-function GoftegoSubscriptions() {
+const GoftegoSubscriptions = () => {
     return (
         <div className=" container flex flex-col text-white mx-auto ">
             <h3 className="xl:text-5xl font-semibold xl:mb-10 text mb-3 lg:text-4xl text-[24px] px-2">

@@ -9,7 +9,7 @@ import ActiveAccounts from "./ActiveAccounts";
 import SubscriptionHistory from "./SubscriptionHistory";
 
 
-function Profile() {
+const Profile = () => {
     const [isActive, setIsactive] = useState([1])
 
 

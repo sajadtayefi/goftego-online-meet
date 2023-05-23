@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function CommentCard({ name, title, description, avatar, logo }) {
+const CommentCard = ({ name, title, description, avatar, logo }) => {
     return (
         <div className="bg-[#202020] flex flex-col xl:p-5  p-2 rounded-xl   ">
             <div className="flex flex-row justify-start items-start w-full rounded-xl  ">

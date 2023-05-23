@@ -1,7 +1,7 @@
 import { BlogOtherItems } from "@/constant/BlogItems";
 import BlogCard from "./BlogCard";
 
-function BlogOther() {
+const BlogOther = () => {
     return (
         <div className="flex flex-row text-white flex-wrap container  mx-auto justify-center items-center px-10 ">
             <BlogCard

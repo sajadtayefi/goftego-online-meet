@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function VideoIntroduction() {
+const VideoIntroduction = () => {
     return (
         <div className="flex flex-col container mx-auto justify-center items-center mb-20 lg:mb-40 ">
             <h2 className="text-white text-[24px] lg:text-4xl text-3xl xl:text-5xl font-semibold mb-10 text">

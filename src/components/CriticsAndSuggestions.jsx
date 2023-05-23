@@ -12,9 +12,9 @@ import SlidePrevButton from "../app/common/SwiperCriticsPrev";
 
 
 
-function CriticsAndSuggestions() {
+const CriticsAndSuggestions = () => {
     return (
-        <div className=" flex flex-col justify-center items-center text-white text-center  xl:mb-32">
+        <div className=" flex flex-col justify-center items-center text-white text-center  xl:mb-32" >
             <Btn
                 text='نظرات مشتریان'
                 textCname='text-secondary '

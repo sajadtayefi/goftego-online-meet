@@ -1,17 +1,27 @@
 import Btn from "@/app/common/Btn";
+import { useGlobalContext } from "@/app/context/store";
 import axios from "axios";
+import Cookies from "js-cookie";
 import Image from "next/image";
 import { useState } from "react";
 
-function RegisterVerified() {
+const RegisterVerified = ({ phone, exist }) => {
+    const { userData, setUserData } = useGlobalContext()
     const [otpcode, setOtpcode] = useState("")
     const onChangeOtpcodehandler = (e) => {
         setOtpcode(e.target.value)
     }
     const otpverfiedhandler = () => {
-        axios.post(`http://admin.iranyol.com/customer/api/signup/with/otp`, { otp: otpcode, mobile: phone })
-    }
+        axios.post(exist ? `https://pouyan.xyz/goftego/customer/api/login/with/otp` : `https://pouyan.xyz/goftego/customer/api/singup/with/otp`, { otp: String(otpcode), mobile: String(phone), })
+            .then((res) => {
+                Cookies.set("token", res.data.accessToken)
+                Cookies.set("user", JSON.stringify(res.data.userData))
+                console.log(res)
+                setUserData(res.data.userData)
+                console.log(userData)
 
+            })
+    }
 
 
     return (
