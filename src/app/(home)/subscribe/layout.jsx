@@ -3,10 +3,8 @@ import Header from "@/components/Header";
 
 const RootLayout = ({ children }) => {
   return (
-    <div className="bg-[#100F12] bg-my_bg_image overflow-hidden  font-dana">
-      <Header />
+    <div className="bg-[#100F12] bg-my_bg_image  font-dana">
       {children}
-      <Footer />
     </div>
   )
 }

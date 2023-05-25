@@ -1,6 +1,6 @@
 import { WhyGoftegoItems } from "@/constant/WhyGoftegoItems";
 import { Fragment } from "react";
-import BenefitGoftegoCard from "../../common/BenefitGoftegoCard";
+import BenefitGoftegoCard from "../../../common/BenefitGoftegoCard";
 
 const WhyGoftego = () => {
     return (

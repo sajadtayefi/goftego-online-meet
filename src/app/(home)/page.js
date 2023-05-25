@@ -8,12 +8,11 @@ import SupportOfChat from "@/components/SupportOfChat";
 import VideoIntroduction from "@/components/VideoIntroduction";
 import WhyGoftego from "@/components/WhyGoftego";
 import Footer from '@/components/Footer'
-import Header from '../components/Header'
+import Header from '../../components/Header'
 const Home = () => {
   return (
     <main className="">
       <div className=" overflow-hidden">
-        <Header />
         <OnlineMeetingManagementSoftware />
         <AchievementsOfManaging />
         <ShortDescriptionAboutOnlineMeeting />
@@ -23,7 +22,6 @@ const Home = () => {
         <CriticsAndSuggestions />
         <SupportOfChat />
         <GoftegoSubscriptions />
-        <Footer />
       </div>
     </main>
   )

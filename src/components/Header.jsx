@@ -1,4 +1,5 @@
 "use client"
+
 import Image from "next/image";
 import { HeaderItems } from "../constant/HeaderItems";
 import Btn from "../app/common/Btn";
@@ -60,7 +61,6 @@ const Header = () => {
                     text="ورود / ثبت نام"
                 />
             </Link>
-
         </div >
     );
 }

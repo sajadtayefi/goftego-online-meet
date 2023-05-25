@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Fragment } from "react";
-import AchievementCard from "../../common/AchievementCard";
+import AchievementCard from "../../../common/AchievementCard";
 import { AchievementItems } from "@/constant/AchievementItems";
 
 const AchievementsOfManaging = () => {

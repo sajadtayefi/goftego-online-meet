@@ -28,14 +28,6 @@
   margin: 0;
 }
 
-
-/* Placeholder styles */
-
-
-/* Hover styles */
-
-
-/* Focus styles */
 input:focus {
   @apply border-blue-500;
   outline: none;
