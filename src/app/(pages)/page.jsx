@@ -7,8 +7,8 @@ import SoftwareDownloadManageOnlineMeetings from "@/components/SoftwareDownloadM
 import SupportOfChat from "@/components/SupportOfChat";
 import VideoIntroduction from "@/components/VideoIntroduction";
 import WhyGoftego from "@/components/WhyGoftego";
-import Footer from '@/components/Footer'
-import Header from '../../components/Header'
+
+
 const Home = () => {
   return (
     <main className="">

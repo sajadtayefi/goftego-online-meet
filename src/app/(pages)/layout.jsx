@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { GlobalContextProvider } from "../context/store";
 
 const RootLayout = ({ children }) => {
     return (

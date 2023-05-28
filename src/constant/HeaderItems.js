@@ -3,7 +3,7 @@ export const HeaderItems = [
         id: 1,
         name: "صفحه اصلی",
         isActive: true,
-        link: '/#'
+        link: '/'
     }
     ,
     {

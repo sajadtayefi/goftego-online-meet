@@ -11,12 +11,7 @@ const RegisterForm = () => {
     const [exist, setExist] = useState(false)
     const [status, setStatus] = useState(0)
     const [phone, setPhone] = useState("")
-    // useEffect(() => {
-    //     axios.get(`https://pouyan.xyz/goftego/blog/api/categories`)
-    //         .then((res) => {
-    //             console.log(res, "this is my get res")
-    //         })
-    // }, [])
+  
 
     const phonehandler = () => {
         axios.post(`https://pouyan.xyz/goftego/userverification/api/send`, { type: "mobile", mobile: phone })
