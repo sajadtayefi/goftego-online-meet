@@ -1,16 +1,20 @@
 "use client"
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { BlogSwiperitems } from "@/constant/BlogItems";
 import BlogCard from "./BlogCard";
-import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper.min.css';
 import 'swiper/css/navigation';
-import Btn from '@/app/common/Btn';
-import Image from 'next/image';
 import BlogMainSwiper from './BlogMainSwiper';
+import { useEffect } from 'react';
+import axios from 'axios';
 
 
 const BlogSinglePageSwiper = () => {
+    useEffect(() => {
+        axios.get(`https://pouyan.xyz/goftego/blog/api/blogs`)
+            .then((res) => {
+                console.log(res)
+            })
+    }, [])
     return (
         <div className="">
             <BlogMainSwiper

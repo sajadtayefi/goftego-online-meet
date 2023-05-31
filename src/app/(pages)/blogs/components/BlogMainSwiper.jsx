@@ -24,8 +24,6 @@ const BlogMainSwiper = ({ text, data, renderItem }) => {
                 </div>
             </div>
             <Swiper
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
                 modules={[Navigation]}
                 navigation={{
                     nextEl: '.review-swiper-button-next',

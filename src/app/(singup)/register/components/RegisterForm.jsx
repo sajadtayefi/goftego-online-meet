@@ -1,17 +1,15 @@
 "use client"
-import Btn from "@/app/common/Btn";
 import axios from "axios";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import RegisterSingUp from "./RegisterSignUp";
-import Link from "next/link";
 import RegisterVerified from "./RegisterVerified";
 
 const RegisterForm = () => {
     const [exist, setExist] = useState(false)
     const [status, setStatus] = useState(0)
     const [phone, setPhone] = useState("")
-  
+
 
     const phonehandler = () => {
         axios.post(`https://pouyan.xyz/goftego/userverification/api/send`, { type: "mobile", mobile: phone })
@@ -51,10 +49,18 @@ const RegisterForm = () => {
                 شماره موبایل
             </p>
             <input readOnly={status == 1 && true} value={phone} onChange={onChangePhonehandler} className="bg-transparent border text-xl rounded-lg w-full p-3 lg:p-5 custom-number-input" type="number" />
-            {status == 0 && <RegisterSingUp phonehandler={phonehandler} phone={phone} />}
-            {status == 1 && <p onClick={editnumberHandler} className=" mt-5 cursor-pointer text-primary"> تغییر شماره موبایل </p>}
-            {status == 1 && <RegisterVerified exist={exist} phone={phone} />}
 
+            <div className={` duration-[2000ms]  ease-in-out w-full ${status === 0 ? "opacity-100" : " hidden opacity-0"}`}>
+                <RegisterSingUp phonehandler={phonehandler} phone={phone} />
+            </div>
+
+            <div className={` duration-[2000ms]  ease-in-out w-full ${status === 1 ? "opacity-100" : " hidden opacity-0"}`}>
+                <p onClick={editnumberHandler} className="mt-5 cursor-pointer text-primary"> تغییر شماره موبایل </p>
+            </div>
+
+            <div className={` duration-[2000ms]  ease-in-out w-full  ${status === 1 ? "opacity-100" : " hidden opacity-0"}`}>
+                <RegisterVerified exist={exist} phone={phone} />
+            </div>
         </div>
     );
 }

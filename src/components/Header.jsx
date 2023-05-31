@@ -16,8 +16,6 @@ const Header = () => {
     const username = userdata && JSON.parse(userdata)
 
 
-    console.log(username)
-
     const openeventhandler = () => {
         setIsOpen(!isOpen)
     }

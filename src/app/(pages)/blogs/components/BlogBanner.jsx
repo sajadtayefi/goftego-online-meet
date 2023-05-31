@@ -1,6 +1,4 @@
 import { FirstBlogitems } from "@/constant/BlogItems";
-import Image from "next/image";
-import { Fragment } from "react";
 import BlogCard from "./BlogCard";
 
 const BlogBanner = () => {
